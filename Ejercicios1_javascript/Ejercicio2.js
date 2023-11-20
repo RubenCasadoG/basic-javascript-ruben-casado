@@ -6,23 +6,23 @@ switch (nota) {
     case "0":
     case "1":
     case "2":
-        console.log("Es muy deficiente")
+        console.log(" [!] Es muy deficiente")
         break;
     case "3":
     case "4":
-        console.log("Es insuficiente");
+        console.log("[ !] Es insuficiente");
         break;
     case "5":
     case "6":
-        console.log("Es un suficiente");
+        console.log(" [+] Es un suficiente");
         break;
     case "7":
     case "8":
-        console.log("Es un notable");
+        console.log(" [+] Es un notable");
         break;
     case "9":
     case "10":
-        console.log("Es un sobresaliente");
+        console.log(" [+] Es un sobresaliente");
         break;
     default:
         console.log("Tu nota no es válida")
